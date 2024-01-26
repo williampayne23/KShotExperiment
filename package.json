@@ -1,0 +1,24 @@
+{
+  "name": "kshot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "experimentrunner": "file:../ExperimentRunner",
+    "openai": "^4.23.0",
+    "zod": "^3.22.4"
+  },
+  "description": "K Shot prompting. A model generates K responses to a prompt. A subsequent model call chooses the best of the K responses, which in theory produces better results",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
